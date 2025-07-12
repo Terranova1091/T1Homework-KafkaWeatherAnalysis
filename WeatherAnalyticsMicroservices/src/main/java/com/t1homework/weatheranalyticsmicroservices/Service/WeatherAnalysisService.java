@@ -25,7 +25,9 @@ public class WeatherAnalysisService {
 
     // Общий анализ
     public Map<String, Object> getGlobalAnalysis() {
-        return buildAnalysis(allEvents);
+        Map<String, Object> analysis = buildAnalysis(allEvents);
+        analysis.remove("Текущая погода"); // или ключ, который отвечает за состояние погоды
+        return analysis;
     }
 
     // Анализ по конкретному городу
@@ -53,11 +55,17 @@ public class WeatherAnalysisService {
                 .min()
                 .orElse(0.0);
 
+        String currentWeather = events.stream()
+                .max(Comparator.comparing(WeatherEvent::getZonedDateTime))  // выбираем событие с самой поздней датой
+                .map(WeatherEvent::getStatus)                      // берем статус из этого события
+                .orElse("неизвестно");
+
         Map<String, Object> analysis = new LinkedHashMap<>();
         analysis.put("Кол-во данных", events.size());
         analysis.put("Средняя температура", avgTemp);
         analysis.put("Максимальная температура", maxTemp);
         analysis.put("Минимальная температура", minTemp);
+        analysis.put("Текущая погода", currentWeather);
 
         return analysis;
     }
