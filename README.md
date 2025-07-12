@@ -37,15 +37,16 @@
 
 ```bash
 docker-compose up -d
-
-Запустить Spring Boot сервисы:
+```
+2. **Запустить Spring Boot сервисы:**
 
 В двух отдельных терминалах выполнить команды:
+```
 ./mvnw spring-boot:run -pl WeatherCollectionMicroservices
 ./mvnw spring-boot:run -pl WeatherAnalyticsMicroservices
 
 Или через кнопки в intellij idea(Предпочтительно )))
-
+```
 Просмотр аналитики:
 
 Консюмер начнет выводить агрегированные данные о погоде в консоль.
