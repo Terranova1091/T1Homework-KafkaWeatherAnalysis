@@ -59,7 +59,7 @@ Kafka доступна по адресу: localhost:9092.
 Топик называется weather-topic.
 
 Группа потребителей: weather-event.
-
+```bash
 Структура проекта
 ├── docker-compose.yml              # Конфигурация Kafka
 ├── WeatherModel                    # Вынесена модель сообщения
@@ -67,6 +67,7 @@ Kafka доступна по адресу: localhost:9092.
 ├── WeatherAnalyticsMicroservices   # Модуль консюмера, принимает и обрабатывает данные
 └── README.md                       # Этот файл
 ```
+
 
 Контакты
 Если возникнут вопросы — обращайтесь https://t.me/DiabolusexArcaTabacaria.
