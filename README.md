@@ -35,7 +35,7 @@
 
 1. **Запустить Kafka через Docker Compose:**
 
-```bash
+```
 docker-compose up -d
 ```
 2. **Запустить Spring Boot сервисы:**
@@ -59,13 +59,15 @@ Kafka доступна по адресу: localhost:9092.
 Топик называется weather-topic.
 
 Группа потребителей: weather-event.
-```bash
+
+```
 Структура проекта
 ├── docker-compose.yml              # Конфигурация Kafka
 ├── WeatherModel                    # Вынесена модель сообщения
 ├── WeatherCollectionMicroservices  # Модуль продюсера, генерирует и отправляет данные
 ├── WeatherAnalyticsMicroservices   # Модуль консюмера, принимает и обрабатывает данные
 └── README.md                       # Этот файл
+
 ```
 
 
