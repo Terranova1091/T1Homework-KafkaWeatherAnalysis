@@ -21,7 +21,7 @@
    - Принимает сообщения и агрегирует данные.
    - Выводит аналитику, например:
      - Общая аналитика по городам.
-     - Самая большая/низкая температура в городе x.
+     - Самая высокая/низкая температура в городе x.
 
 3. **Запуск и проверка:**
    - Запускается Kafka через Docker Compose.
@@ -37,13 +37,14 @@
 
 ```bash
 docker-compose up -d
+
 Запустить Spring Boot сервисы:
 
 В двух отдельных терминалах выполнить команды:
-./mvnw spring-boot:run -pl WeatherProducer
-./mvnw spring-boot:run -pl WeatherConsumer
+./mvnw spring-boot:run -pl WeatherCollectionMicroservices
+./mvnw spring-boot:run -pl WeatherAnalyticsMicroservices
 
-Или через кнопки в intellij idea
+Или через кнопки в intellij idea(Предпочтительно )))
 
 Просмотр аналитики:
 
