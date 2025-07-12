@@ -11,8 +11,8 @@
 	<groupId>com.t1homework</groupId>
 	<artifactId>WeatherCollectionMicroservices</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>weather-ollectionMicroservices</name>
-	<description> WeatherСollectionMicroservices for T1 homework  number 1</description>
+	<name>weatherCollectionMicroservices</name>
+	<description> WeatherCollectionMicroservices for T1 homework  number 1</description>
 	<url/>
 	<licenses>
 		<license/>

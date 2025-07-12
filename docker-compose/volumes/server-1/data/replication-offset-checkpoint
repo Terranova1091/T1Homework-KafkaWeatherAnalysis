@@ -8,8 +8,8 @@ __consumer_offsets 35 0
 __consumer_offsets 30 0
 __consumer_offsets 13 0
 __consumer_offsets 26 0
-__consumer_offsets 21 210
-weather-topic 0 107
+__consumer_offsets 21 359
+weather-topic 0 189
 __consumer_offsets 19 0
 __consumer_offsets 25 0
 __consumer_offsets 33 0
@@ -39,7 +39,7 @@ __consumer_offsets 7 0
 __consumer_offsets 48 0
 weather-topic 1 0
 __consumer_offsets 22 0
-weather-topic 2 105
+weather-topic 2 172
 __consumer_offsets 46 0
 __consumer_offsets 23 0
 __consumer_offsets 42 0

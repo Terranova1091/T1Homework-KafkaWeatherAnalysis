@@ -55,9 +55,9 @@ public class WeatherAnalysisService {
 
         Map<String, Object> analysis = new LinkedHashMap<>();
         analysis.put("Кол-во данных", events.size());
-        analysis.put("Средняя темпиратура", avgTemp);
-        analysis.put("Максимальная темпиратура", maxTemp);
-        analysis.put("Минимальная темпиратура", minTemp);
+        analysis.put("Средняя температура", avgTemp);
+        analysis.put("Максимальная температура", maxTemp);
+        analysis.put("Минимальная температура", minTemp);
 
         return analysis;
     }

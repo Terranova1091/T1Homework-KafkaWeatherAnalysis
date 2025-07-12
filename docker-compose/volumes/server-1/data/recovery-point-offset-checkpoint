@@ -4,7 +4,7 @@ __consumer_offsets 13 0
 __consumer_offsets 46 0
 __consumer_offsets 9 0
 __consumer_offsets 42 0
-__consumer_offsets 21 0
+__consumer_offsets 21 340
 __consumer_offsets 17 0
 weather-topic 1 0
 __consumer_offsets 30 0
@@ -20,7 +20,7 @@ __consumer_offsets 41 0
 __consumer_offsets 24 0
 __consumer_offsets 20 0
 __consumer_offsets 49 0
-weather-topic 0 11
+weather-topic 0 179
 __consumer_offsets 0 0
 __consumer_offsets 29 0
 __consumer_offsets 25 0
@@ -45,7 +45,7 @@ __consumer_offsets 14 0
 __consumer_offsets 43 0
 __consumer_offsets 10 0
 __consumer_offsets 22 0
-weather-topic 2 7
+weather-topic 2 165
 __consumer_offsets 18 0
 __consumer_offsets 31 0
 __consumer_offsets 27 0
