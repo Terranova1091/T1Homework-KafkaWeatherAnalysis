@@ -65,7 +65,7 @@ Kafka доступна по адресу: localhost:9092.
 ├── WeatherCollectionMicroservices  # Модуль продюсера, генерирует и отправляет данные
 ├── WeatherAnalyticsMicroservices   # Модуль консюмера, принимает и обрабатывает данные
 └── README.md                       # Этот файл
-
+```
 
 Контакты
 Если возникнут вопросы — обращайтесь https://t.me/DiabolusexArcaTabacaria.
