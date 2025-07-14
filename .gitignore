@@ -1,0 +1,21 @@
+*.log
+
+build/
+
+config.local
+
+**/*.tmp
+
+node_modules/
+
+.vscode/
+.idea/
+
+*.class
+*.jar
+target/  # Для Maven/Gradle
+
+/target/
+**/*.rs.bk
+
+ИнформацияПоДз.docx
