@@ -16,16 +16,16 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
-        <module name="WeatherAnalyticsMicroservices" />
-        <module name="WeatherCollectionMicroservices" />
+        <module name="weather-analytics-service" />
+        <module name="weather-collector-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="WeatherAnalyticsMicroservices" options="-parameters" />
-      <module name="WeatherCollectionMicroservices" options="-parameters" />
       <module name="WeatherModel" options="-parameters" />
+      <module name="weather-analytics-service" options="-parameters" />
+      <module name="weather-collector-service" options="-parameters" />
     </option>
   </component>
 </project>

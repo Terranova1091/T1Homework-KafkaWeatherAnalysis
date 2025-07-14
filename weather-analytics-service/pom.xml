@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.t1homework</groupId>
-	<artifactId>WeatherCollectionMicroservices</artifactId>
+	<artifactId>weather-analytics-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>weatherCollectionMicroservices</name>
-	<description> WeatherCollectionMicroservices for T1 homework  number 1</description>
+	<name>WeatherAnalyticsMicroservices</name>
+	<description>WeatherAnalyticsMicroservices</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -56,14 +56,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-
 		<dependency>
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 	</dependencies>
 
 	<build>
