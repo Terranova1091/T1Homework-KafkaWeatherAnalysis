@@ -13,7 +13,7 @@ node_modules/
 
 *.class
 *.jar
-target/  # Для Maven/Gradle
+target/
 
 /target/
 **/*.rs.bk
